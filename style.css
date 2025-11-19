@@ -1,0 +1,70 @@
+body{
+    background-color: #222;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+    margin: auto;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    margin-top: 50px;
+    border: 2px solid white;
+    padding: 50px; 
+    border-radius: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    font-size: larger;
+}
+.password{
+    background-color: #fff;
+    color: #000;
+    border: white 2px solid;
+    max-width: calc(100vw - 30px);
+    height: 70px;
+    min-width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    border-radius: 10px;
+}
+#button{
+    background-color: greenyellow;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    font-weight: bold;
+    font-size: larger;
+    height: 50px;
+    margin-top: 10px;
+
+}
+
+#button:hover{
+
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 2px yellowgreen;
+    transform: scale(1.03);
+    transition-duration: 0.1s;
+}
+#copy{
+    font-weight: bold;
+    border-radius: 5px;
+    background-color:cornsilk;
+}
